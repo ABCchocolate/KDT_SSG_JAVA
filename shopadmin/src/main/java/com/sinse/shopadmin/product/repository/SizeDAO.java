@@ -14,7 +14,7 @@ public class SizeDAO {
 	
 	public int insert(Size size) {
 	    int result = 0;
-	    String sql = "INSERT INTO size(size_name) VALUES(?)";
+	    String sql = "IN INTO size(size_name) VALUES(?)";
 
 	    try (Connection con = db.getConnetion();
 	         PreparedStatement pstmt = con.prepareStatement(sql)) {

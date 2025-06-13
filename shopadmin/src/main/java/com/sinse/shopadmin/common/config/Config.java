@@ -28,6 +28,8 @@ public class Config {
 	public static final int UTIL_HEIGHT=50;
 	public static final int SIDE_WIDTH=200;
 	public static final int SIDE_HEIGHT=ADMINMAIN_HEIGHT-UTIL_HEIGHT;
+	
+	public static final String PRODUCT_IMAGE_PATH = "/Users/bag-yusin/Desktop/public";
 
 }
 
